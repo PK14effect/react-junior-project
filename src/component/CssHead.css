@@ -1,0 +1,54 @@
+.navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+    header input.form-control {
+        width: 200px;
+    }
+
+    .container-fluid {
+        flex-wrap: wrap;
+    }
+
+    .container-fluid .d-flex {
+        flex: 1 1 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .container-fluid .d-flex.align-items-center {
+        justify-content: flex-start;
+    }
+}
+
+.linkButton {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .linkButton:hover {
+    background-color: #FFCB05;
+    color: rgb(0, 0, 0);
+    border: none;
+  }
+
+  .card-body-custom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  

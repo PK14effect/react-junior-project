@@ -1,0 +1,31 @@
+.pokemon-logo {
+    width: 156px;
+    height: 57px;
+    margin-left: 50px;
+}
+
+.search-bar {
+    max-width: 507px;
+    border-radius:8px;
+}
+
+#search_input:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 2px yellow; /* Add yellow border */
+  }
+  
+  #search-input:focus + .icon_clear {
+    display: block; /* Show icon on focus */
+  }
+
+.pocket {
+    margin-right: 20px;
+}
+
+.user-controls .username {
+    font-size: 1rem;
+}
+
+.user-controls .pocket .badge {
+    font-size: 0.75rem;
+}   

@@ -1,0 +1,24 @@
+
+.table img {
+    vertical-align: middle;
+}
+
+.order-summary {
+    margin-top: 20px;
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.order-summary h4 {
+    margin-bottom: 15px;
+}
+
+.order-summary p {
+    margin: 0;
+}
+
+.order-summary .btn {
+    margin-top: 15px;
+}
